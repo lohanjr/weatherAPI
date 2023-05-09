@@ -1,0 +1,64 @@
+.fullwindow, .boxblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fullwindow{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+.boxblock{
+    width: 90%;
+    max-width: 450px;
+    height: 350px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.inputtxt, .buttonstyle{
+    border: none;
+    border-radius: 5px;
+}
+.inputtxt{
+    outline: none;
+    padding: 10px;
+    font-size: 1.4rem;
+    width: calc(100% - 100px)
+}
+.buttonstyle{
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+    background-color: rgba(200, 200, 200, 0.0);
+    float: right;
+    color: #ffffff;
+}
+.buttonstyle:hover{
+    color: rgb(255, 255, 255);
+}
+.input-search{
+    padding-bottom: 20px;
+}
+
+/* Variáveis da API */
+.contentbox-from-api{
+    text-align: center;
+    width: 100%;
+}
+.cityname-api{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.temp-api{
+    margin-bottom: 20px;
+}
+.how-weather-is-api{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

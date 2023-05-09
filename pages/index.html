@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="../js/script.js" defer></script>
+
+    <!-- Font Awesome - Icons / Toolkit -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Projeto de API</title>
+
+</head>
+
+<body>
+
+    <section class="fullwindow">
+        <div class="boxblock">
+
+            <div class="input-search">
+                <input class="inputtxt" type="text" name="txt" id="txt" placeholder="Digite o nome da cidade">
+                <button class="buttonstyle" onclick="buttonAction()"><span class="fa fa-magnifying-glass fa-2x"></span></button>
+            </div>
+
+            <div class="contentbox-from-api">
+                <h2 class="cityname-api">Cidade</h2>
+
+                <p class="temp-api">°C</p>
+
+                <div class="how-weather-is-api">
+                    <img class="img-preview" src="https://openweathermap.org/img/wn/04n.png" alt="imagem-temporária">
+                    <p class="text-preview">Nublado</p>
+                </div>
+
+                <p class="moisture-api">Umidade</p>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
